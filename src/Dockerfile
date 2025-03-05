@@ -1,4 +1,4 @@
-FROM jryberg/mosquitto-exporter:v0.7.4@sha256:09a5cc8518b61f5b83bc93f6e51ff5c0a331ffc258293f28384b26969f99c82a
+FROM jryberg/mosquitto-exporter:v0.7.5@sha256:b765da6aa4fef18e47f622e83fb802ec781ac62b26ffc50a60bde0dd37d2873d
 
 COPY --chmod=775 /rootfs/docker-entrypoint.sh /
 
