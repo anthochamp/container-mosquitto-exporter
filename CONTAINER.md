@@ -15,9 +15,16 @@ See [README.md](README.md) for full documentation and configuration reference.
 
 - `x.y-exporterA.B.C`: Latest patch of `x.y` with mosquitto-exporter `A.B.C`.
 - `x-exporterA.B.C`: Latest minor+patch of `x` with mosquitto-exporter `A.B.C`.
+- `x.y.z-exporterA.B`: Version `x.y.z` with latest patch of mosquitto-exporter `A.B` (only latest container version updated).
+- `x.y-exporterA.B`: Latest patch of `x.y` with latest patch of mosquitto-exporter `A.B`.
+- `x-exporterA.B`: Latest minor+patch of `x` with latest patch of mosquitto-exporter `A.B`.
+- `x.y.z-exporterA`: Version `x.y.z` with latest minor+patch of mosquitto-exporter `A` (only latest container version updated).
+- `x.y-exporterA`: Latest patch of `x.y` with latest minor+patch of mosquitto-exporter `A`.
+- `x-exporterA`: Latest minor+patch of `x` with latest minor+patch of mosquitto-exporter `A`.
 - `x.y.z`: Version `x.y.z` with latest mosquitto-exporter (only latest container version updated).
-- `x.y`: Latest patch of `x.y` with latest mosquitto-exporter (only latest container major.minor updated).
-- `x`: Latest minor+patch of `x` with latest mosquitto-exporter (only latest container major updated).
+- `x.y`: Latest patch of `x.y` with latest mosquitto-exporter.
+- `x`: Latest minor+patch of `x` with latest mosquitto-exporter.
+- `exporterA.B.C`: Latest container with mosquitto-exporter `A.B.C`.
 - `exporterA.B`: Latest container with latest patch of mosquitto-exporter `A.B`.
 - `exporterA`: Latest container with latest minor+patch of mosquitto-exporter `A`.
 - `latest`: Latest `x.y.z-exporterA.B.C` tag.
